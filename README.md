@@ -26,4 +26,10 @@ To obtain your API key, visit the Hugging Face website:
    ```bash
     python meta_llama_3.2.py
    ```
+## Adding  the Power of Meta LLaMA 3.2 Text Models
+   ```bash
+    python meta_llama_3.2_text.py
+   ```
+
+
 
