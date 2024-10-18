@@ -37,4 +37,6 @@ To obtain your API key, visit the Hugging Face website:
 ## added Anthropic Cookbooks (Tool Use course)
 
 
+## Added VannaAI (TEXT2SQL Using LLMs)
+
 
