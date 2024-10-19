@@ -1,44 +1,108 @@
-# LLM_Examples
+# LLM Examples & GenAI Resources
 
-## Unleashing the Power of Meta LLaMA 3.2 Vision
+A comprehensive collection of examples, tutorials, and cookbooks for popular Large Language Models (LLMs) and GenAI frameworks.
 
-Embark on a journey to transform your images into captivating descriptions with the cutting-edge Meta LLaMA 3.2 Vision model. This guide will walk you through the seamless process of installation, configuration, and execution, ensuring you harness the full potential of this remarkable tool.
+## 🌟 Featured Collections
+
+### 1. Meta LLaMA Models
+- **LLaMA 3.2 Vision**
+  - Image-to-text capabilities
+  - Visual understanding and description
+  - Object detection and scene analysis
+- **LLaMA 3.2 Text**
+  - Advanced text generation
+  - Natural language processing
+  - Text completion and summarization
+
+### 2. LangChain Cookbooks
+- Integration examples
+- Chain and agent development
+- Tool connections and orchestration
+
+### 3. Anthropic Claude Tools
+- Tool use course materials
+- API integration examples
+- Best practices and patterns
+
+### 4. VannaAI Examples
+- Text-to-SQL implementations
+- Database query generation
+- Natural language to SQL conversion
+
+### 5. LlamaIndex Guides
+- Document indexing
+- Knowledge base creation
+- Search and retrieval examples
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Git
+- Hugging Face API key
 
 ### Installation
 
-Begin by setting up your environment to accommodate the Meta LLaMA 3.2 Vision model. Follow these steps to install the necessary dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/Ajaykumarkv/llmexamples.git
+cd llmexamples
+```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Ajaykumarkv/llmexamples.git
-   cd Hugginface_cookbooks
-   ```
-2. **Set the Environment Key**:
-   Ensure you have the necessary environment variables configured. This can typically be done by exporting the required keys:
-   ```bash
-   HUGGINGFACE_API_KEY=your_key
-   ```
-To obtain your API key, visit the Hugging Face website:
-[Generate Your API Key](https://huggingface.co/settings/tokens)
+2. Set up your environment:
+```bash
+# Create and activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. **Execute the Program**:
-   Run the following command to start the Meta LLaMA 3.2 Vision model:
-   ```bash
-    python meta_llama_3.2.py
-   ```
-## Adding  the Power of Meta LLaMA 3.2 Text Models
-   ```bash
-    python meta_llama_3.2_text.py
-   ```
+# Install dependencies
+pip install -r requirements.txt
+```
 
+3. Configure API keys:
+```bash
+export HUGGINGFACE_API_KEY=your_key_here
+# Add other required API keys as needed
+```
 
-## Adding  the Langchain Cookbooks
+Get your Hugging Face API key [here](https://huggingface.co/settings/tokens).
 
-## added Anthropic Cookbooks (Tool Use course)
+## 📚 Examples & Usage
 
+### LLaMA 3.2 Vision
+```bash
+python examples/meta_llama_vision/demo.py
+```
 
-## Added VannaAI (TEXT2SQL Using LLMs)
+### LLaMA 3.2 Text
+```bash
+python examples/meta_llama_text/demo.py
+```
 
-## Adding Llamaindex Cookbooks
+### Text-to-SQL with VannaAI
+```bash
+python examples/vanna_ai/text2sql_demo.py
+```
 
+## 📖 Documentation
+Each directory contains detailed documentation and example notebooks:
+- `examples/` - Working code examples
+- `cookbooks/` - Step-by-step tutorials
+- `docs/` - Additional documentation
 
+## 🤝 Contributing
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+- Create an issue for bug reports or feature requests
+- Star the repository if you find it helpful
+- Fork for your own modifications
+
+## 🔗 Additional Resources
+- [Hugging Face Documentation](https://huggingface.co/docs)
+- [LangChain Documentation](https://python.langchain.com/docs)
+- [VannaAI Documentation](https://vanna.ai/docs)
+- [LlamaIndex Documentation](https://docs.llamaindex.ai)
