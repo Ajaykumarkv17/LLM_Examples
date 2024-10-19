@@ -39,4 +39,6 @@ To obtain your API key, visit the Hugging Face website:
 
 ## Added VannaAI (TEXT2SQL Using LLMs)
 
+## Adding Llamaindex Cookbooks
+
 
