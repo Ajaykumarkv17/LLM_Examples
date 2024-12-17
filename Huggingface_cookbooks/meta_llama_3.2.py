@@ -2,10 +2,9 @@ from huggingface_hub import InferenceClient
 
 from dotenv import load_dotenv
 import os
-load_dotenv()
 
-api_key=os.getenv("HUGGINGFACE_API_TOKEN")
-client = InferenceClient(api_key=api_key)
+client = InferenceClient()
+print(client)
 
 image_url = "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
 
