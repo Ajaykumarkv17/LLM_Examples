@@ -15,7 +15,7 @@ for message in client.chat_completion(
 			"role": "user",
 			"content": [
 				{"type": "image_url", "image_url": {"url": image_url}},
-				{"type": "text", "text": "Describe this image in one sentence."},
+				{"type": "text", "text": "Describe this image in three sentence."},
 			],
 		}
 	],
