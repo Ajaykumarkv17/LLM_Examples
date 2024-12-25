@@ -87,8 +87,8 @@ python examples/vanna_ai/text2sql_demo.py
 ## 📖 Documentation
 Each directory contains detailed documentation and example notebooks:
 
-- `cookbooks/` - Step-by-step tutorials
-- `docs/` - Additional documentation
+- `{Framework/tool}-cookbooks/` - Step-by-step tutorials
+
 
 ## 🤝 Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
