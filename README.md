@@ -99,7 +99,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 - Create an issue for bug reports or feature requests
 - Star the repository if you find it helpful
-- Clone the repository for collob
+- Clone the repository for colloboration
 - Fork for your own modifications
 
 ## 🔗 Additional Resources
