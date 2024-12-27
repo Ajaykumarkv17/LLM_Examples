@@ -101,6 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Star the repository if you find useful
 - Clone the repository for colloboration
 - Fork for your own modifications
+- Open for discussions
 
 ## 🔗 Additional Resources
 - [Hugging Face Documentation](https://huggingface.co/docs)
