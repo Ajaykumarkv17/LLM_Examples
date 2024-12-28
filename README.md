@@ -108,4 +108,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [LangChain Documentation](https://python.langchain.com/docs)
 - [VannaAI Documentation](https://vanna.ai/docs)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai)
-- [Bedrock]https://docs.aws.amazon.com/bedrock/
+- [Amazon Bedrock Documentation]https://docs.aws.amazon.com/bedrock/
