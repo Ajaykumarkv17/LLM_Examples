@@ -86,9 +86,9 @@ python examples/vanna_ai/text2sql_demo.py
 
 ## 📖 Documentation
 Each directory contains detailed documentation and example notebooks:
-- `examples/` - Working code examples
-- `cookbooks/` - Step-by-step tutorials
-- `docs/` - Additional documentation
+
+- `{Framework/tool}-cookbooks/` - Step-by-step tutorials
+
 
 ## 🤝 Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
@@ -97,12 +97,15 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
-- Create an issue for bug reports or feature requests
-- Star the repository if you find it helpful
+- Create an issue for bug reports or feature requests or error occurs while trying out.
+- Star the repository if you find useful
+- Clone the repository for colloboration
 - Fork for your own modifications
+- Open for discussions
 
 ## 🔗 Additional Resources
 - [Hugging Face Documentation](https://huggingface.co/docs)
 - [LangChain Documentation](https://python.langchain.com/docs)
 - [VannaAI Documentation](https://vanna.ai/docs)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai)
+- [Amazon Bedrock Documentation](https://docs.aws.amazon.com/bedrock/)
