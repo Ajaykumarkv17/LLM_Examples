@@ -1,0 +1,6 @@
+Age,Class,Survived,Predicted_Survival
+20,1,1,1.0
+30,2,0,0.5
+40,3,0,0.5
+50,1,1,0.5
+60,2,0,0.5
