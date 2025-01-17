@@ -1,3 +1,5 @@
 faiss_index/
 
 .env
+
+myenv
