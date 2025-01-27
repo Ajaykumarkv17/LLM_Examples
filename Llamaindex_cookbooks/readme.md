@@ -1,39 +1,64 @@
 # LlamaIndex Cookbooks
 
-This repository contains a collection of cookbooks that demonstrate how to use the LlamaIndex framework for building advanced applications leveraging large language models (LLMs). 
+A collection of examples showcasing LlamaIndex capabilities for document processing, retrieval-augmented generation (RAG), and agent-based workflows.
 
-## What is LlamaIndex?
+## Contents
 
-LlamaIndex (formerly known as GPT Index) is a powerful data framework that connects LLMs to various data sources, providing an interface to create highly specialized, retrieval-augmented generation (RAG) systems and more. It simplifies the integration of LLMs with external data, allowing for efficient indexing and querying of large datasets.
+### 1. Core Examples
+- `gpt4o_mini.ipynb`: Implementation using GPT-4 optimized mini models
+- `llama_parse_eg.py`: Document parsing examples using LlamaParse
+- JSON document examples:
+  - `docs.jsonl`
+  - `docs_gpt4o-mini.jsonl`
+
+### 2. Multimodal RAG Examples
+- `multimodal_rag_slide_deck.ipynb`: RAG implementation for slide decks
+- `Multimodal_rag.ipynb`: General multimodal RAG implementation
+- Sample data in `/data` directory including report.pdf
+
+### 3. Agent Workflows
+Located in `/agentworkflows`
+- `agent.ipynb`: Implementation of agent-based workflows
+- Examples of:
+  - Task decomposition
+  - Agent coordination
+  - Workflow automation
+
+## Getting Started
+
+1. Install required dependencies:
+```bash
+pip install llama-index pypdf transformers pillow jupyter
+```
+
+2. Set up your API keys:
+```bash
+export OPENAI_API_KEY=your_openai_key  # or other LLM provider
+```
+
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
 
 ## Key Features
+- Document processing and parsing
+- Multimodal RAG implementations
+- Agent-based workflows
+- PDF and slide deck handling
+- JSON document processing
+- Integration with various LLM providers
 
-- **Indexing Data**: Converts raw data into vector embeddings for efficient retrieval.
-- **Query Engine**: Enables LLMs to access up-to-date, domain-specific information through indexed data.
-- **Advanced Retrieval Techniques**: Supports complex retrieval methods to optimize data retrieval.
-- **Generation Enhancement**: Improves document retrieval and alignment with LLM generation tasks.
+## Prerequisites
+- Python 3.8+
+- OpenAI API key or other LLM provider credentials
+- Basic understanding of:
+  - RAG concepts
+  - Document processing
+  - Jupyter notebooks
+  - Vector embeddings
 
-## Use Cases
-
-LlamaIndex can be leveraged in various domains:
-
-1. **Enterprise Knowledge Management**: Index internal documents for enhanced search capabilities.
-2. **Chatbots**: Improve chatbot responses by allowing them to pull from specific knowledge bases.
-3. **RAG Systems**: Build systems that combine real-time data with LLM inference.
-4. **Data-Centric Applications**: Organize and retrieve data from multiple sources for specific queries.
-5. **Education and Research**: Enable retrieval of educational materials to answer questions.
-
-## Benefits
-
-- **Scalable Data Integration**: Easily manage large amounts of data from diverse sources.
-- **Enhanced LLM Performance**: Provide more relevant outputs by accessing external data.
-- **Customization**: Fine-tune indexing and retrieval based on application needs.
-- **Flexibility**: Work with various data formats and integrate with different LLMs.
-
-## Contributing
-
-We welcome contributions! If you'd like to contribute, feel free to open a pull request or raise an issue. Make sure to check out the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+## Additional Resources
+- [LlamaIndex Documentation](https://docs.llamaindex.ai)
+- [LlamaParse Documentation](https://docs.llamaindex.ai/en/stable/module_guides/parsing/llamaparse.html)
+- [LlamaIndex GitHub Repository](https://github.com/run-llama/llama_index)
