@@ -3,3 +3,5 @@ faiss_index/
 .env
 
 myenv
+
+Llamaindex_cookbooks
