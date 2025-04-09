@@ -3,7 +3,7 @@ import logging
 from semantic_kernel import Kernel
 from semantic_kernel.utils.logging import setup_logging
 from semantic_kernel.functions import kernel_function
-from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
+from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion ,OpenAIChatCompletion
 from semantic_kernel.connectors.ai.function_choice_behavior import FunctionChoiceBehavior
 from semantic_kernel.connectors.ai.chat_completion_client_base import ChatCompletionClientBase
 from semantic_kernel.contents.chat_history import ChatHistory
