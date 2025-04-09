@@ -1,5 +1,5 @@
 import asyncio
-
+import logging
 from semantic_kernel import Kernel
 from semantic_kernel.utils.logging import setup_logging
 from semantic_kernel.functions import kernel_function
