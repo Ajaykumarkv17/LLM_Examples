@@ -22,7 +22,7 @@ This cookbook demonstrates the usage of Microsoft's AutoGen framework for buildi
 
 1. Install required dependencies:
 ```bash
-pip install pyautogen pandas matplotlib jupyter
+pip install ag2 pandas matplotlib jupyter
 ```
 
 2. Launch Jupyter Notebook:
